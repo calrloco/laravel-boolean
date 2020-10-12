@@ -23,6 +23,7 @@
     margin:0 2.2rem;
     cursor: pointer;
     transition: all 0.2s;
+    
     &:hover {
         transform: scale(1.1);
         -webkit-transform: scale(1.1);
@@ -30,15 +31,19 @@
         -ms-transform: scale(1.1);
         -o-transform: scale(1.1);
     }
+    
     &__top {
         @include flex(row, flex-start, center);
         flex: 1;
+        
         &-left {
             flex: 2;
         }
+        
         &-right {
             flex: 1;
         }
+        
         &-img {
             max-width: 10rem;
             clip-path: circle();
