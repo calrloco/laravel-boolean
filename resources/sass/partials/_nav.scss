@@ -1,13 +1,26 @@
 .nav-bool {
     height: 10rem;
-    @include flex(row,space-between,center);
+    @include flex(row, space-between, center);
     &__logo {
-
         height: 3.2rem;
     }
-    &__list{
+    &__list {
         list-style: none;
         flex: 2;
-        @include flex(row,space-between,center);
+        @include flex(row, space-between, center);
+
+        &-items {
+            font-size: 1.8rem;
+
+            & a {
+                color: #000;
+                text-decoration: none;
+            }
+           
+        }
     }
+}
+a.active{
+    color: #0cd977;
+    text-decoration: underline;
 }

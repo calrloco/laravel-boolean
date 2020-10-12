@@ -1,0 +1,18 @@
+.big__title{
+    font-size:5rem;
+    margin-bottom: 2rem;
+    font-weight: 700;
+}
+h1{
+    color: $boolean-green;
+}
+li{
+    list-style: none;
+}
+div.wrapper {
+    @include flex(column,null,null);
+    
+}
+main{
+    flex: 1;
+}

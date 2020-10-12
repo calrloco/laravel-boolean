@@ -9,6 +9,7 @@
     font-size: 1.6rem;
 }
 .card {
+    @include flex(column, center, flex-start);
     flex: 0 0 calc(100% / 3);
     height: 34rem;
     background-color: red;
@@ -35,9 +36,14 @@
     &__top {
         @include flex(row, flex-start, center);
         flex: 1;
+
+        &-heading{
+            color: $boolean-green;
+        }
         
         &-left {
             flex: 2;
+            @include flex(column, flex-start,null)
         }
         
         &-right {
