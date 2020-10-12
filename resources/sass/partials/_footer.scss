@@ -1,5 +1,9 @@
 .footer{
     background: #001632;
-    
-    
+    height: 20rem;
+  
+}
+.pt-5{
+    height: 100%;
+    @include flex(row,center, center)
 }

@@ -8,9 +8,9 @@
         <div class="col-lg-4 offset-lg-4">
             <ul class="nav-bool__list">
 
-                <li class="nav-bool__list-items"> <a href="{{ route('StaticPage.home') }}">Home</a></li>
-                <li class="nav-bool__list-items"><a href="{{ route('StaticPage.chisiamo') }}">Corso</a></li>
-                <li class="nav-bool__list-items"><a href="{{ route('Student.studenti') }}">Studenti</a></li>
+            <li class="nav-bool__list-items"> <a class="{{url()->current() == route('StaticPage.home') ? 'visited' : 'normal'}}" href="{{ route('StaticPage.home') }}">Home</a></li>
+            <li class="nav-bool__list-items"><a class="{{url()->current() == route('StaticPage.chisiamo') ? 'visited' : 'normal'}}" href="{{ route('StaticPage.chisiamo') }}">Corso</a></li>
+            <li class="nav-bool__list-items"><a class="{{url()->current() == route('Student.studenti') ? 'visited' : 'normal'}}" href="{{ route('Student.studenti') }}">Studenti</a></li>
 
             </ul>
         </div>

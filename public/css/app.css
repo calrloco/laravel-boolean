@@ -10971,7 +10971,7 @@ html {
   text-decoration: none;
 }
 
-a.active {
+a.visited {
   color: #0cd977;
   text-decoration: underline;
 }
@@ -11065,5 +11065,14 @@ a.active {
 
 .footer {
   background: #001632;
+  height: 20rem;
+}
+
+.pt-5 {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
