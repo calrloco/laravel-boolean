@@ -1,0 +1,13 @@
+.nav-bool {
+    height: 10rem;
+    @include flex(row,space-between,center);
+    &__logo {
+
+        height: 3.2rem;
+    }
+    &__list{
+        list-style: none;
+        flex: 2;
+        @include flex(row,space-between,center);
+    }
+}
