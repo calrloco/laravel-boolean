@@ -15,7 +15,7 @@
                <img src="{{$student['img']}}" alt="" class="card__top-img">
             </div>
          <div class="card__top-left">
-           <a href="">{{$student['name'], $student['anni']}}</h3></a>
+            <h3 class="card__top-heading">{{$student['name'], $student['anni']}}</h3>
            <strong class="card__bottom-palcement text__blue">{{$student['azienda']}}</strong>
            <strong class="card__bottom-palcement text__blue">{{$student['ruolo']}}</strong>
           </div>

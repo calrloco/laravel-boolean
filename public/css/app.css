@@ -11050,6 +11050,7 @@ a.visited {
 
 .card__top-heading {
   color: #0cd977;
+  text-transform: uppercase;
 }
 
 .card__top-left {
@@ -11074,10 +11075,12 @@ a.visited {
   max-width: 10rem;
   -webkit-clip-path: circle();
           clip-path: circle();
+  margin-right: 2rem;
 }
 
 .card__top-img-slider {
   max-width: 15rem;
+  margin-right: 0;
 }
 
 .chisiamo {

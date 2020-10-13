@@ -50,6 +50,7 @@
         }
         &-heading {
             color: $boolean-green;
+            text-transform: uppercase;
         }
 
         &-left {
@@ -68,9 +69,10 @@
         &-img {
             max-width: 10rem;
             clip-path: circle();
-
+            margin-right: 2rem;
             &-slider {
                 max-width: 15rem;
+                margin-right: 0;
             }
         }
     }
